@@ -1,1 +1,1 @@
-web: gunicorn echobot.py
+web: python3 echobot.py
