@@ -1,2 +1,2 @@
 botogram
-os
+requests
