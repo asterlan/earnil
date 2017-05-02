@@ -1,7 +1,9 @@
 import botogram
+import os
 import requests
 
 bot = botogram.create('376118437:AAHGUTat7yo67cQEKNweuWoVHPkjiCswfbk')
+PORT = int(os.environ.get('PORT', '5000'))
 #url = "https://api.telegram.org/bot376118437:AAHGUTat7yo67cQEKNweuWoVHPkjiCswfbk/"
 
 @bot.command("hello")
